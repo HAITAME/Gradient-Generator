@@ -27,7 +27,6 @@ function copyText() {
     
 }
 
-// Gestion des clics sur le bouton de soumission
 
 // Gestion des clics sur les boutons de direction
 const directionButtons = document.querySelectorAll(".buttons button");
@@ -36,6 +35,6 @@ directionButtons.forEach(button => {
         // Ajouter la classe 'active' au bouton cliqué
         directionButtons.forEach(btn => btn.classList.remove("active"));
         this.classList.add("active");
-        // generateCode(); // Regénérer le code CSS à chaque clic sur un bouton de direction
+        // generateCode(); 
     });
 });
